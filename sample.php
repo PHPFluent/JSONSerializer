@@ -55,6 +55,7 @@ $nested = (new Nested)->setArray(array(1, 2, 3));
 $fancy  = (new MyFancyClass)->setEmail("foo@bar.com")->setNested($nested);
 
 echo json_encode($fancy);
+
 /*
 $serialized = json_serialize(
 	(new MyFancyClass)->setEmail("foo@bar.com")->setNested(
