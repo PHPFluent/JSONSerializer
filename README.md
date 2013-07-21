@@ -66,7 +66,7 @@ Usage:
 
   json_encode($fancy);
   /*
-   $serialized = json_serialize(
+   $serialized = json_encode(
   	(new MyFancyClass)->setEmail("foo@bar.com")->setNested(
   			(new Nested)->setArray(array(1, 2, 3))
   		);
