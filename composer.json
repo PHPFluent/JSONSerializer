@@ -1,0 +1,30 @@
+{
+    "name": "phpfluent\/jsonserializer",
+    "description": "JSON Serializer implementation.",
+    "version": "1.0",
+    "type": "library",
+    "time": "2013-07-21 03:02:00",
+    "homepage": "http:\/\/github.com/PHPFluent/JSONSerializer",
+    "license": "New BSD",
+    "authors": [
+        {
+            "name": "Kinn Coelho Julião",
+            "email": "kinncj@gmail.com"
+        },
+        {
+            "name": "Henrique Moody",
+            "email": "henriquemoody@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "PHPFluent\\JSONSerializer": "src\/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.x-dev"
+    },
+    "require": {
+        "crodas/Notoj": "dev-master"
+    }
+}
