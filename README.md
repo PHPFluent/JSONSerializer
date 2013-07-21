@@ -73,7 +73,6 @@ Usage:
   	);
   */
 
-  json_serialize($fancy);
   ```
 
 Test:
