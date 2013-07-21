@@ -5,7 +5,7 @@
 namespace PHPFluent\JSONSerializer\Test;
 
 require_once dirname(__FILE__) . "/Related.php";
-require_once dirname(__FILE__) . "/serializable.php";
+require_once dirname(__FILE__) . "/Serializable.php";
 
 /**
  * The Serializer Test
