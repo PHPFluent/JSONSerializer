@@ -25,6 +25,6 @@
         "phpunit/phpunit": "3.7.x-dev"
     },
     "require": {
-        "crodas/Notoj": "dev-master"
+        "crodas/notoj": "dev-master"
     }
 }
