@@ -14,15 +14,15 @@ require_once dirname(__FILE__) . "/Serializable.php";
  */
 class SerializerTest extends \PHPUnit_Framework_TestCase
 {
-	public function testShouldSerialize()
-	{
-		$encode = json_encode(
-			(new Serializable)->setName("Xuplau")
-							  ->setRelated(
-							  		(new Related)->setArray(array(1, 2, 3))
-							  	)
-		);
-		
-		$this->assertEquals('{"name":"Xuplau","related":{"array":[1,2,3]}}', $encode);
-	}
+    public function testShouldSerialize()
+    {
+        $encode = json_encode(
+            (new Serializable)->setName("Xuplau")
+                              ->setRelated(
+                                    (new Related)->setArray(array(1, 2, 3))
+                                )
+        );
+
+        $this->assertEquals('{"name":"Xuplau","related":{"array":[1,2,3]}}', $encode);
+    }
 }

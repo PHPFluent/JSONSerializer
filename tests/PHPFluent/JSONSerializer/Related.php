@@ -5,22 +5,22 @@ use PHPFluent\JSONSerializer\Serializer;
 
 class Related extends Serializer
 {
-	/**
+    /**
 	 * @PHPFluent\JSONSerializer\Attribute
 	 */
-	private $array;
+    private $array;
 
-	private $xuplau;
+    private $xuplau;
 
-	public function setArray(array $array)
-	{
-		$this->array = $array;
+    public function setArray(array $array)
+    {
+        $this->array = $array;
 
-		return $this;
-	}
+        return $this;
+    }
 
-	public function getArray()
-	{
-		return $this->array;
-	}
+    public function getArray()
+    {
+        return $this->array;
+    }
 }
